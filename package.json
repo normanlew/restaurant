@@ -1,0 +1,27 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "A restaurant webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanlew/restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/normanlew/restaurant/issues"
+  },
+  "homepage": "https://github.com/normanlew/restaurant#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.7",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.4"
+  }
+}
