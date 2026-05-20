@@ -1,0 +1,12 @@
+#restaurant_pic {
+    background-image: url("./restaurant_interior.jpg");
+    width: 400px;
+    height: 800px;
+    /* background-color: green; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  */
+
+    /* Scales the image to cover the entire page while maintaining aspect ratio */
+    /* background-size: cover;  */ 
+}
