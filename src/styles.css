@@ -12,7 +12,7 @@ body {
 }
 
 #content {
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     /* height: 400px; */
     height: 100%;
 }
@@ -94,3 +94,30 @@ body {
 #desserts {
     background-color: yellow;
 }
+
+#about_container {
+    display: flex;
+    height: 100%;
+    /* align-items: stretch; */
+    /* justify-content: center; */
+}
+
+#info {
+    background-color: cadetblue;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact {
+    background-color: darkgoldenrod;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

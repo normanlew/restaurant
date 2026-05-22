@@ -4,6 +4,8 @@ import restaurant_img from "./restaurant_interior.jpg"
 export function loadHome() {
     const content = document.querySelector("#content");
 
+    const home_div = document.createElement("div");
+
             // <h1>Welcome to my restaurant page!</h1>
             // <h2>Inside my restaurant page, you will learn about my restaurant and the many dishes we cook up!</h2>
             // <img src="./restaurant_interior.jpg"></img>
@@ -21,8 +23,9 @@ export function loadHome() {
     // const restaurant_picture_div = document.createElement("div");
     // restaurant_picture_div.id = "restaurant_pic";
 
-    content.appendChild(welcome_message);
-    content.appendChild(welcome_sub_message);
-    content.appendChild(restaurant_picture);
+    home_div.appendChild(welcome_message);
+    home_div.appendChild(welcome_sub_message);
+    home_div.appendChild(restaurant_picture);
+    content.appendChild(home_div);
     // content.appendChild(restaurant_picture_div);
 }
