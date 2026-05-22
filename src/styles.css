@@ -19,8 +19,8 @@ body {
 
 #restaurant_pic {
     background-image: url("./restaurant_interior.jpg");
-    /* width: 400px;
-    height: 800px; */
+    width: 400px;
+    height: 800px;
     /* background-color: green; */
     /* background-repeat: no-repeat;
     background-attachment: fixed;
