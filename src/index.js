@@ -5,7 +5,6 @@ import {loadAbout} from "./about.js";
 
 
 loadHome();
-// loadMenu();
 
 const home_button = document.querySelector("#home");
 
@@ -29,6 +28,3 @@ about_button.addEventListener("click", (e) => {
     content_div.replaceChildren();
     loadAbout();
 })
-
-
-// console.log("test");
